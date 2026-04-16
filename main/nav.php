@@ -5,7 +5,7 @@
                 <li id="dmsp">
                     <ion-icon name="menu-outline"></ion-icon>
                     <a href="#">
-                        DANH MỤC SẢN PHẨM
+                        DANH MỤC SẢN 
                     </a>
                 </li>
                 <ul id="menu-bar">
