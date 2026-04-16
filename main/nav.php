@@ -25,9 +25,6 @@
         <li><a href="elements/warities.php">TRUNG TÂM BẢO HÀNH</a></li>
         <li><a href="elements/news.php">TIN CÔNG NGHỆ</a></li>
         <li><a href="elements/vlogs.php">VLOG THỦ THUẬT</a></li>
-    </ul>
-    <ul style="width: 20%;">
         <li><a href="elements/recruitments.php">TUYỂN DỤNG</a></li>
         <li><a href="elements/contacts.php">LIÊN HỆ</a></li>
-    </ul>
 </nav>
