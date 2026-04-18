@@ -70,25 +70,54 @@ ion-icon[name="heart"]:hover{
 #nav-main{
     display: flex;
     flex-direction: row;
-    width: 100%;
-    margin-top: 50px;
+    width: 100vw;
+    left: 0;
+    margin-top: 60px;
     background-color: #ff3333;
     position: fixed;
     align-items: center;
     justify-content: center;
-    z-index: 999;
+    z-index: 998;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    min-height: 48px;
 }
-#nav-main >ul{
+#nav-main > ul {
     display: flex;
     flex-direction: row;
-    width: 50%;
-    height: 30px;
+    width: 100%;
+    height: 48px;
     align-items: center;
-    justify-content: space-around;
+    gap: 8px;
+    margin: 0;
+    padding: 0 8px;
+    overflow-x: auto;
+    justify-content: center;
+
+    #nav-main {
+    position: fixed;
+    top: 60px;
+    width: 100vw;
+    left: 0;
+    z-index: 998;
 }
-#nav-main >ul >li >a, #dmsp >a{
+}
+#nav-main > ul > li {
+    white-space: nowrap;
+    height: 48px;
+    display: flex;
+    align-items: center;
+}
+#nav-main > ul > li > a, #dmsp > a {
     color: #fff;
-    font-size: 15px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0 8px;
+    line-height: 48px;
+    border-radius: 4px;
+    text-align: center;
+    display: inline-block;
+    white-space: nowrap;
+    transition: background 0.2s, font-size 0.2s;
 }
 #nav-main >ul >li >a:hover{
     font-size: 17px;
@@ -135,6 +164,11 @@ ion-icon[name="heart"]:hover{
     position: relative;
     overflow: hidden;
     border-radius: 12px;
+}
+
+#aside-bar {
+    width: 250px;
+    min-height: 600px;
 }
 
 /* Track */
