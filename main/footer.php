@@ -1,28 +1,41 @@
-<footer id="footer-main" style="background: #222; color: #fff; padding: 40px 0 20px 0; text-align: center; font-size: 16px;">
-    <div style="max-width: 1200px; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; gap: 32px;">
-        <div style="flex: 1; min-width: 220px;">
-            <img src="../img/logo/LAPTOPZZ.png" alt="Logo" style="height: 60px; margin-bottom: 16px;">
-            <p>Cửa hàng LAPTOPZZ - Chuyên laptop, phụ kiện, linh kiện máy tính nhập khẩu chính hãng.</p>
+<footer class="site-footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h3 class="footer-heading">Về Chúng Tôi</h3>
+                <p>Chuyên cung cấp các dòng phụ kiện cao cấp, chính hãng với giá cả cạnh tranh nhất thị trường.</p>
+                <div class="contact-info">
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Đường ABC, Quận 1, TP. HCM</p>
+                    <p><i class="fas fa-phone"></i> Hotline: 0123 456 789</p>
+                    <p><i class="fas fa-envelope"></i> Email: support@yourdomain.com</p>
+                </div>
+            </div>
+
+            <div class="footer-section links">
+                <h3 class="footer-heading">Chính Sách</h3>
+                <ul>
+                    <li><a href="#">Chính sách bảo hành</a></li>
+                    <li><a href="#">Chính sách đổi trả</a></li>
+                    <li><a href="#">Hình thức thanh toán</a></li>
+                    <li><a href="#">Vận chuyển & Giao hàng</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section newsletter">
+                <h3 class="footer-heading">Đăng Ký Nhận Tin</h3>
+                <p>Nhận thông tin khuyến mãi mới nhất từ chúng tôi.</p>
+                <form action="" class="subscribe-form">
+                    <input type="email" placeholder="Email của bạn..." required>
+                    <button type="submit">Gửi</button>
+                </form>
+            </div>
         </div>
-        <div style="flex: 1; min-width: 180px;">
-            <h4 style="color: #ffd700; margin-bottom: 12px;">Liên hệ</h4>
-            <p>Địa chỉ: 123 Đường ABC, Quận XYZ, TP.HCM</p>
-            <p>Điện thoại: 0123 456 789</p>
-            <p>Email: info@laptopzz.vn</p>
-        </div>
-        <div style="flex: 1; min-width: 180px;">
-            <h4 style="color: #ffd700; margin-bottom: 12px;">Hỗ trợ khách hàng</h4>
-            <p><a href="../elements/warities.php" style="color: #fff; text-decoration: underline;">Bảo hành & Đổi trả</a></p>
-            <p><a href="../elements/contacts.php" style="color: #fff; text-decoration: underline;">Liên hệ</a></p>
-            <p><a href="../elements/recruitments.php" style="color: #fff; text-decoration: underline;">Tuyển dụng</a></p>
-        </div>
-        <div style="flex: 1; min-width: 180px;">
-            <h4 style="color: #ffd700; margin-bottom: 12px;">Kết nối với chúng tôi</h4>
-            <a href="#" style="color: #fff; margin: 0 8px;"><ion-icon name="logo-facebook"></ion-icon></a>
-            <a href="#" style="color: #fff; margin: 0 8px;"><ion-icon name="logo-youtube"></ion-icon></a>
-            <a href="#" style="color: #fff; margin: 0 8px;"><ion-icon name="logo-instagram"></ion-icon></a>
+
+        <div class="footer-bottom">
+            <p>&copy; <?php echo date("Y"); ?> Web Bán Phụ Kiện. Tất cả quyền được bảo lưu.</p>
         </div>
     </div>
+</footer>
     <div style="margin-top: 32px; border-top: 1px solid #444; padding-top: 16px; font-size: 14px; color: #aaa;">
         &copy; 2026 LAPTOPZZ. All rights reserved.
     </div>
