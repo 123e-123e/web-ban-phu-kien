@@ -30,13 +30,3 @@
                 </form>
             </div>
         </div>
-
-        <div class="footer-bottom">
-            <p>&copy; <?php echo date("Y"); ?> Web Bán Phụ Kiện. Tất cả quyền được bảo lưu.</p>
-        </div>
-    </div>
-</footer>
-    <div style="margin-top: 32px; border-top: 1px solid #444; padding-top: 16px; font-size: 14px; color: #aaa;">
-        &copy; 2026 LAPTOPZZ. All rights reserved.
-    </div>
-</footer>
