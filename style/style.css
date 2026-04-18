@@ -72,7 +72,7 @@ ion-icon[name="heart"]:hover{
     flex-direction: row;
     width: 100%;
     margin-top: 50px;
-    background-color: #ff0000;
+    background-color: #ff3333;
     position: fixed;
     align-items: center;
     justify-content: center;
@@ -94,7 +94,7 @@ ion-icon[name="heart"]:hover{
     font-size: 17px;
 }
 #nav-menu >nav >li{
-    background-color: #ff0000;
+    background-color: #ff3333;
 }
 /* menu style */
 #menu-bar >li >a{
