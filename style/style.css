@@ -186,7 +186,7 @@ ion-icon[name="heart"]:hover{
 .slider {
     width: 1200px;
     height: 700px;
-    margin: 120px auto 0;
+    margin: 10px auto 0;
     position: relative;
     overflow: hidden;
     border-radius: 12px;
@@ -320,13 +320,13 @@ ion-icon[name="heart"]:hover{
 }
 
 .footer-section ul li a {
-    color: #ff3333;
+    color: #bdc3c7;
     text-decoration: none;
     transition: 0.3s;
 }
 
 .footer-section ul li a:hover {
-    color: #e67e22;
+    color: #ff3333;
     padding-left: 5px;
 }
 
