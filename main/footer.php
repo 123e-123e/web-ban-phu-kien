@@ -2,12 +2,12 @@
     <div class="container">
         <div class="footer-content">
             <div class="footer-section about">
-                <h3 class="footer-heading">Về Chúng Tôi</h3>
-                <p>Chuyên cung cấp các dòng phụ kiện cao cấp, chính hãng với giá cả cạnh tranh nhất thị trường.</p>
+                <h3 class="footer-heading">Thông Tin Về Chúng Tôi</h3>
+                <p>Chuyên cung cấp các dòng LapTop, phụ kiện PC, phụ kiện Thông Minh chất lượng cao.</p>
                 <div class="contact-info">
-                    <p><i class="fas fa-map-marker-alt"></i> 123 Đường ABC, Quận 1, TP. HCM</p>
-                    <p><i class="fas fa-phone"></i> Hotline: 0123 456 789</p>
-                    <p><i class="fas fa-envelope"></i> Email: support@yourdomain.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 1 Đường Võ Thị Sáu, Quận 1, TP. HCM</p>
+                    <p><i class="fas fa-phone"></i> Hotline: 0902 030 456</p>
+                    <p><i class="fas fa-envelope"></i> Email: Kn4267909@gmail.com</p>
                 </div>
             </div>
 
