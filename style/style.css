@@ -56,10 +56,8 @@ header{
 }
 
 #logo {
-    height: 50px !important;
-    width: auto !important;
-    max-width: 180px !important;
-    object-fit: contain !important;
+    height: 60px !important;
+    width: 240px !important;
 }
 
 header >form{
