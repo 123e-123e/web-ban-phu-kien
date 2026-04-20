@@ -1,8 +1,12 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background-color: #f8f9fa;
     color: #333;
+    background-image: url("../img/img_index1/header-bg.jpg"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
 }
 
 .container {
@@ -17,13 +21,23 @@ header, footer {
     color: white;
     padding: 1em 0;
 }
+
+/* HEADER */
+header {
+    background-image: url("../img/img_index1/footer-bg.jpg");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
 header h1 {
     display: inline-block; 
     padding-bottom: 8px;
     margin-bottom: 5px;
-    text-shadow: 0 0 10px rgba(160, 32, 240, ); 
+    text-shadow: 0 0 10px rgba(255, 51, 51, 0.6);
 }
 
+/* MENU */
 .menu {
     list-style: none;
     padding: 0;
@@ -32,70 +46,47 @@ header h1 {
 }
 
 .menu a {
-    color: #ffffff;
+    color: #fff;
     text-decoration: none;
     padding: 10px 22px;
     border-radius: 8px;
     font-weight: 700;
     font-size: 15px;
-    position: relative;
-    transition: all 0.4s ease;
-    
-   
-    border: 2px solid rgba(160, 32, 240, 0.3);
-    
+    transition: 0.4s;
 
+    border: 2px solid rgba(255, 51, 51, 0.3);
     background: rgba(255, 255, 255, 0.05);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
 
-
-    text-shadow: 0 0 5px rgba(160, 32, 240, 0.5);
-    
-    display: inline-block;
+    text-shadow: 0 0 5px rgba(255, 51, 51, 0.5);
 }
 
 .menu a:hover {
-    border-color: #a020f0;
-    
-
-    box-shadow: 0 0 15px #a020f0, inset 0 0 10px rgba(160, 32, 240, 0.4);
-    
-
-    color: #fff;
-    text-shadow: 0 0 8px #a020f0, 0 0 15px #a020f0;
-    
-   
-    background: rgba(160, 32, 240, 0.15);
-    transform: translateY(-2px); 
+    border-color: #ff3333;
+    box-shadow: 0 0 15px #ff3333, inset 0 0 10px rgba(255, 51, 51, 0.4);
+    text-shadow: 0 0 8px #ff3333, 0 0 15px #ff3333;
+    background: rgba(255, 51, 51, 0.15);
+    transform: translateY(-2px);
 }
-
 
 .menu a.active {
-    border-color: #dfa8ff;
-    box-shadow: 0 0 20px #a020f0;
-    background: rgba(160, 32, 240, 0.2);
+    border-color: #ff9999;
+    box-shadow: 0 0 20px #ff3333;
+    background: rgba(255, 51, 51, 0.2);
 }
 
-footer {
-    text-align: center;
-    margin-top: 2em;
-}
-
+/* FORM */
 form {
     background: rgba(255, 255, 255, 0.05);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    border: 1px solid rgba(160, 32, 240, 0.3);
-    box-shadow: 0 0 15px #a020f0, inset 0 0 10px rgba(160, 32, 240, 0.4);
+    border: 1px solid rgba(255, 51, 51, 0.3);
+    box-shadow: 0 0 15px #ff3333, inset 0 0 10px rgba(255, 51, 51, 0.4);
     border-radius: 8px;
     padding: 20px;
-    
-    color: #dfa8ff;
-    text-shadow: 0 0 10px rgba(160, 32, 240, 0.8);
+
+    color: #ff9999;
+    text-shadow: 0 0 10px rgba(255, 51, 51, 0.8);
 }
 
-
+/* INPUT */
 input, textarea, button {
     width: 100%;
     max-width: 500px;
@@ -104,234 +95,140 @@ input, textarea, button {
     font-size: 1em;
 }
 
+input:focus, select:focus {
+    border: 1px solid #ff3333;
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 51, 51, 0.4);
+}
+
+/* BUTTON */
 button {
-    background-color: #000000;
-    color: rgb(255, 255, 255);
-    border: none;
-    cursor: pointer;
+    background: rgba(255, 51, 51, 0.15);
+    color: #fff;
+    border: 2px solid rgba(255, 51, 51, 0.3);
     border-radius: 4px;
-     border: 2px solid rgba(160, 32, 240, 0.3);
-       text-shadow: 0 0 5px rgba(160, 32, 240, 0.5);
-        box-shadow: 0 0 15px #a020f0, inset 0 0 4px rgba(160, 32, 240, 0.4);
-    background: rgba(160, 32, 240, 0.15);
-    display: inline-block;
+    cursor: pointer;
+
+    text-shadow: 0 0 5px rgba(255, 51, 51, 0.5);
+    box-shadow: 0 0 15px #ff3333, inset 0 0 4px rgba(255, 51, 51, 0.4);
 }
 
 button:hover {
-    background-color: #000000;
-    color: #fff;
-    text-shadow: 0 0 8px #a020f0, 0 0 15px #a020f0;
+    text-shadow: 0 0 8px #ff3333, 0 0 15px #ff3333;
 }
 
+/* TEXT */
 h3 {
-    color: #ffffff;
-    text-shadow: 0 0 8px #a020f0, 0 0 15px #a020f0;
+    color: #fff;
+    text-shadow: 0 0 8px #ff3333, 0 0 15px #ff3333;
 }
 
-footer {
-    text-align: center;
-    margin-top: 2em;
-    font-size: 0.9em;
-    color: white;
+/* TABLE */
+table tr:hover td {
+    background-color: #ffe5e5;
+    transition: 0.2s;
 }
 
-footer a {
-    color: #ffffff; /* normal link color */
-    text-decoration: none;
-    margin: 0 5px;
-    font-weight: 500;
+table tr:hover th {
+    background-color: #003366;
 }
 
-footer a:hover {
-    color: #00ccff; /* hover color */
-    text-decoration: underline;
-}
-
-/* ✅ make visited links still white (not dark purple) */
-footer a:visited {
-    color: #ffffff;
-}
-
-/* optional: when link is actively clicked */
-footer a:active {
-    color: #00ffcc;
-}
-
-header {
-    background-image: url("../img/img_index1/footer-bg.jpg");
-    background-size: cover;
-    background-position: top center;
-    background-repeat: no-repeat;
-    color: white;
-    padding: 1em 0;
-}
-
-footer {
-    background-image: url("../img/img_index1/footer-bg.jpg");
-    background-size: cover;
-    background-position: bottom center;
-    background-repeat: no-repeat;
-    color: white;
-    text-align: center;
-    margin-top: 2em;
-    font-size: 0.9em;
-    padding: 1em 0;
-}
-
+/* BUTTON LINK */
 .btn {
-  display: inline-block;       /* ✅ Makes buttons sit next to each other */
-  padding: 6px 12px;
-  margin: 2px;                 /* ✅ Adds a little gap between them */
-  border: none;
-  border-radius: 4px;
-  text-decoration: none;
-  color: white;
-  background-color: #003366;
-  cursor: pointer;
+    display: inline-block;
+    padding: 6px 12px;
+    margin: 2px;
+    border-radius: 4px;
+    color: white;
+    background-color: #003366;
+    cursor: pointer;
 }
+
 .btn:hover {
     background: #0055aa;
 }
-.btn:active {
-    background: #002244;
-}
+
 .btn-delete {
-  background-color: #cc0000;   /* ✅ Distinct red for delete */
+    background-color: #cc0000;
 }
+
 .btn-delete:hover {
-  background-color: #ff0000;
+    background-color: #ff0000;
 }
 
-table tr:hover td {
-    background-color: #e6f2ff; /* Màu xanh lơ nhạt */
-    transition: background-color 0.2s ease;
-}
-
-
-table tr:hover th {
-    background-color: #003366; 
-}
-
-
-input:focus, select:focus {
-    border: 1px solid #0055aa;
-    outline: none;
-    box-shadow: 0 0 5px rgba(0, 85, 170, 0.4); 
-    transition: box-shadow 0.3s ease;
-}
-
-
-button, .btn {
-    transition: background-color 0.3s ease;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    color: #333;
-    
-    background-image: url("../img/img_index1/header-bg.jpg"); 
-    background-size: cover; /*Tăng kích thước để tạo hiệu ứng zoom nhẹ, canh cho chỉnh mặt trăng*/
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed; 
-}
-
+/* MAIN */
 main.container {
-    background: rgba(10, 10, 25, 0.4); /* Nền tối mờ, ngả chút sắc tím/xanh */
-    backdrop-filter: blur(15px);
-    -webkit-backdrop-filter: blur(15px);
-    border: 1px solid rgba(160, 32, 240, 0.4); /* Viền màu tím */
+    background: rgba(10, 10, 25, 0.4);
+    border: 1px solid rgba(255, 51, 51, 0.4);
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.8);
     border-radius: 12px;
     padding: 50px 60px;
     margin: 40px auto;
 }
-main.container h2{
+
+main.container h2 {
     text-align: center;
-    font-size: 15px; /* Tăng độ lớn tiêu đề */
-    color: #ffffff;
-    text-shadow: 0 0 8px #a020f0, 0 0 15px #a020f0;
-    margin-bottom: 30px;
-    letter-spacing: 1px;
+    font-size: 15px;
+    color: #fff;
+    text-shadow: 0 0 8px #ff3333, 0 0 15px #ff3333;
 }
 
-/* Tìm đoạn CSS quản lý ảnh nền Footer và sửa lại dòng này */
+/* FOOTER */
 footer {
-    /* Thêm linear-gradient đằng trước url() để phủ lớp màu tối 70% */
     background-image: linear-gradient(rgba(15, 15, 30, 0.7), rgba(15, 15, 30, 0.7)), url("../img/img_index1/footer-bg.jpg");
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-    /* ... giữ nguyên các thuộc tính khác ... */
+    color: white;
+    text-align: center;
+    padding: 1em 0;
 }
 
-/* 1. KHUNG CHIA 3 CỘT ĐỀU NHAU */
+/* FOOTER GRID */
 .footer-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 40px; /* Tạo khoảng cách thở giữa các cột */
+    gap: 40px;
 }
 
 .footer-section {
-    flex: 1; /* Ép 3 cột chia đều không gian bằng nhau (1/3 mỗi cột) */
-    min-width: 280px; /* Tránh bị bóp nghẹt trên màn hình nhỏ */
+    flex: 1;
+    min-width: 280px;
 }
 
 .footer-heading {
-    border-bottom: 2px solid #a020f0; /* Line tím đồng bộ với Admin */
+    border-bottom: 2px solid #ff3333;
     padding-bottom: 12px;
     margin-bottom: 25px;
-    text-transform: uppercase;
     font-size: 18px;
     font-weight: bold;
 }
 
 .footer-section p {
-    line-height: 1.6;
     color: #e0e0e0;
-    margin-bottom: 10px;
 }
 
-/* 2. CỘT 1: CĂN CHỈNH ICON VÀ TEXT THẲNG HÀNG */
-.contact-info p {
-    display: flex;
-    align-items: flex-start;
-    gap: 12px; /* Khoảng cách icon và chữ */
-    margin-bottom: 15px;
-}
-
+/* CONTACT */
 .contact-info i {
-    margin-top: 4px; /* Hạ icon xuống 1 chút cho cân với dòng chữ */
-    color: #dfa8ff; /* Icon màu tím nhạt */
-    font-size: 1.1em;
+    color: #ff9999;
 }
 
-/* 3. CỘT 2: FIX LỖI THỤT LỀ CỦA DANH SÁCH */
+/* LINKS */
 .footer-section.links ul {
     list-style: none;
-    padding: 0; /* Xóa lề trái mặc định của trình duyệt */
-    margin: 0;
-}
-
-.footer-section.links ul li {
-    margin-bottom: 15px;
+    padding: 0;
 }
 
 .footer-section.links ul li a {
     color: #e0e0e0;
-    text-decoration: none;
-    transition: all 0.3s ease;
-    display: inline-block;
+    transition: 0.3s;
 }
 
 .footer-section.links ul li a:hover {
-    color: #dfa8ff; /* Đổi màu khi rê chuột */
-    transform: translateX(8px); /* Hiệu ứng nhích nhẹ sang phải rất xịn */
+    color: #ff9999;
+    transform: translateX(8px);
 }
 
-/* 4. CỘT 3: CĂN CHỈNH FORM ĐĂNG KÝ LIỀN MẠCH */
+/* SUBSCRIBE */
 .subscribe-form {
     display: flex;
     margin-top: 20px;
@@ -339,37 +236,23 @@ footer {
 
 .subscribe-form input {
     flex: 1;
-    padding: 12px 15px;
-    
-    /* Làm nền trong suốt mờ ảo thay vì màu trắng tinh */
-    background-color: rgba(255, 255, 255, 0.1); 
-    color: #ffffff; /* Đổi màu chữ khi gõ thành trắng */
-    border: 1px solid rgba(160, 32, 240, 0.4); /* Thêm viền mỏng màu tím */
+    padding: 12px;
+    background: rgba(255,255,255,0.1);
+    color: #fff;
+    border: 1px solid rgba(255, 51, 51, 0.4);
     border-right: none;
-    
-    border-radius: 6px 0 0 6px;
-    outline: none;
-    font-size: 14px;
-    backdrop-filter: blur(5px); /* Hiệu ứng làm mờ cảnh phía sau */
 }
 
-/* Đổi màu chữ gợi ý (placeholder) cho dễ nhìn */
 .subscribe-form input::placeholder {
-    color: #dfa8ff; /* Màu tím nhạt */
+    color: #ff9999;
 }
 
 .subscribe-form button {
-    padding: 12px 15px; /* Đã giảm từ 25px xuống 15px để nút nhỏ gọn hơn */
-    white-space: nowrap; /* Đảm bảo chữ "Gửi" luôn nằm trên 1 dòng, không bị ép rớt chữ */
-    background-color: #a020f0;
+    background: #ff3333;
     color: white;
-    border: none;
-    border-radius: 0 6px 6px 0; 
-    cursor: pointer;
-    font-weight: bold;
-    transition: background 0.3s;
+    border-radius: 0 6px 6px 0;
 }
 
 .subscribe-form button:hover {
-    background-color: #8a1bc2; /* Tối đi 1 chút khi hover */
+    background: #cc0000;
 }
