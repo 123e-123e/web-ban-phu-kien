@@ -4,35 +4,31 @@
     <div style="display: flex; flex-wrap: wrap; gap: 36px 0; justify-content: flex-start;">
         <div style="width: 12.5%; min-width: 120px; text-align: center;">
             <div style="width: 80px; height: 80px; background: #f3f3f3; border-radius: 16px; margin: 0 auto 12px auto; display: flex; align-items: center; justify-content: center; font-size: 32px; color: #bbb;">Hình</div>
-            <div>Điện thoại</div>
+            <div>Card Màn Hình</div>
         </div>
         <div style="width: 12.5%; min-width: 120px; text-align: center;">
             <div style="width: 80px; height: 80px; background: #f3f3f3; border-radius: 16px; margin: 0 auto 12px auto; display: flex; align-items: center; justify-content: center; font-size: 32px; color: #bbb;">Hình</div>
-            <div>Máy tính bảng</div>
+            <div>LapTop</div>
         </div>
         <div style="width: 12.5%; min-width: 120px; text-align: center;">
             <div style="width: 80px; height: 80px; background: #f3f3f3; border-radius: 16px; margin: 0 auto 12px auto; display: flex; align-items: center; justify-content: center; font-size: 32px; color: #bbb;">Hình</div>
-            <div>Laptop</div>
+            <div>Màn Hình</div>
         </div>
         <div style="width: 12.5%; min-width: 120px; text-align: center;">
             <div style="width: 80px; height: 80px; background: #f3f3f3; border-radius: 16px; margin: 0 auto 12px auto; display: flex; align-items: center; justify-content: center; font-size: 32px; color: #bbb;">Hình</div>
-            <div>Màn hình</div>
+            <div>PC - Máy Tính Để Bàn</div>
         </div>
         <div style="width: 12.5%; min-width: 120px; text-align: center;">
             <div style="width: 80px; height: 80px; background: #f3f3f3; border-radius: 16px; margin: 0 auto 12px auto; display: flex; align-items: center; justify-content: center; font-size: 32px; color: #bbb;">Hình</div>
-            <div>PC - Máy tính để bàn</div>
+            <div>Phụ Kiện</div>
         </div>
         <div style="width: 12.5%; min-width: 120px; text-align: center;">
             <div style="width: 80px; height: 80px; background: #f3f3f3; border-radius: 16px; margin: 0 auto 12px auto; display: flex; align-items: center; justify-content: center; font-size: 32px; color: #bbb;">Hình</div>
-            <div>Phụ kiện</div>
+            <div>Linh Kiện</div>
         </div>
         <div style="width: 12.5%; min-width: 120px; text-align: center;">
             <div style="width: 80px; height: 80px; background: #f3f3f3; border-radius: 16px; margin: 0 auto 12px auto; display: flex; align-items: center; justify-content: center; font-size: 32px; color: #bbb;">Hình</div>
-            <div>Sim FPT</div>
-        </div>
-        <div style="width: 12.5%; min-width: 120px; text-align: center;">
-            <div style="width: 80px; height: 80px; background: #f3f3f3; border-radius: 16px; margin: 0 auto 12px auto; display: flex; align-items: center; justify-content: center; font-size: 32px; color: #bbb;">Hình</div>
-            <div>Đồng hồ thông minh</div>
+            <div>Điện Thoại</div>
         </div>
         <!-- Thêm các danh mục khác nếu muốn -->
     </div>
