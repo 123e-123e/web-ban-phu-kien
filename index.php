@@ -34,6 +34,8 @@ require "main/header.php";
     <!-- Aside bar nếu cần -->
     <?php include "main/aside-bar.php"; ?>
 
+    <?php include "main/sanpham.php"; ?>
+
     <!-- Footer -->
     <?php include "main/footer.php"; ?>
 
