@@ -1,8 +1,8 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "P@ssw0rd";
-$dbname = "nguyentheanh_db";
+$servername = "sql12.freesqldatabase.com"; 
+$username = "sql12823776"; 
+$password = "DXlxtJ5Mch"; 
+$dbname = "sql12823776"; 
 
 // Bật chế độ báo lỗi exception cho MySQLi
 mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
