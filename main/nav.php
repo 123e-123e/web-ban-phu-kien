@@ -12,7 +12,7 @@
                 <li><ion-icon name="laptop-outline"></ion-icon><a href="#"> LAPTOP</a></li>
                 <li><ion-icon name="hardware-chip-outline"></ion-icon><a href="#"> Linh Kiện PC</a></li>
                 <li><ion-icon name="flower-outline"></ion-icon><a href="#"> Phụ Kiện PC</a></li>
-                <li><ion-icon name="tv-outline"></ion-icon><a href="#"> Máy Tính Để Bàn-PC</a></li>
+                <li><ion-icon name="tv-outline"></ion-icon><a href="#">PC</a></li>
                 <li><ion-icon name="tablet-portrait-outline"></ion-icon><a href="#"> Điện Thoại</a></li>
                 <li><ion-icon name="desktop-outline"></ion-icon><a href="#"> Màn hình</a></li>
                 <li><ion-icon name="apps-outline"></ion-icon><a href="#"> Máy Tính Bảng</a></li>
