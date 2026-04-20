@@ -1,3 +1,8 @@
+<?php
+session_start();
+$pageTitle = "Trang chủ";
+require "main/header.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
