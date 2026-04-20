@@ -9,13 +9,13 @@
                     </a>
                 </li>
                 <ul id="menu-bar">
-                <li><ion-icon name="laptop-outline"></ion-icon><a href="#"> LAPTOP Nhập khẩu</a></li>
-                <li><ion-icon name="hardware-chip-outline"></ion-icon><a href="#"> Phụ kiện máy tính</a></li>
-                <li><ion-icon name="flower-outline"></ion-icon><a href="#"> Linh kiện máy tính</a></li>
-                <li><ion-icon name="tv-outline"></ion-icon><a href="#"> Máy tính bộ</a></li>
-                <li><ion-icon name="tablet-portrait-outline"></ion-icon><a href="#"> PC mini</a></li>
+                <li><ion-icon name="laptop-outline"></ion-icon><a href="#"> LAPTOP</a></li>
+                <li><ion-icon name="hardware-chip-outline"></ion-icon><a href="#"> Linh Kiện PC</a></li>
+                <li><ion-icon name="flower-outline"></ion-icon><a href="#"> Phụ Kiện PC</a></li>
+                <li><ion-icon name="tv-outline"></ion-icon><a href="#"> Máy Tính Để Bàn-PC</a></li>
+                <li><ion-icon name="tablet-portrait-outline"></ion-icon><a href="#"> Điện Thoại</a></li>
                 <li><ion-icon name="desktop-outline"></ion-icon><a href="#"> Màn hình</a></li>
-                <li><ion-icon name="apps-outline"></ion-icon><a href="#"> Phần mềm bản quyền</a></li>
+                <li><ion-icon name="apps-outline"></ion-icon><a href="#"> Máy Tính Bảng</a></li>
             </ul>
         </li>
         <li style="display: inline-block; margin-right: 20px;"><a href="index.php" style="text-decoration: none; color: white;">TRANG CHỦ</a></li>
@@ -28,4 +28,3 @@
         <li style="display: inline-block;"><a href="elements/contacts.php" style="text-decoration: none; color: white;">LIÊN HỆ</a></li>
     </ul>
 </nav>
-
