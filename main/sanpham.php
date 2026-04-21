@@ -442,7 +442,7 @@
 
 .brand-filter { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; margin-bottom: 24px; }
 .brand-btn { padding: 16px 20px; background: #f8fafc; color: #334155; border: 2px solid #e2e8f0; border-radius: 12px; cursor: pointer; font-weight: 600; font-size: 14px; transition: all 0.3s; white-space: nowrap; min-width: 90px; height: 52px; display: flex; align-items: center; justify-content: center; box-sizing: border-box; }
-.brand-btn:hover, .brand-btn.active { background: #1e40af; color: white; border-color: #1d4ed8; transform: none; box-shadow: 0 8px 25px rgba(30,64,175,0.4); }
+.brand-btn:hover, .brand-btn.active { background: #ff3333; color: white; border-color: #ff3333; transform: none; box-shadow: 0 8px 25px rgba(30,64,175,0.4); }
 
 
 .grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
