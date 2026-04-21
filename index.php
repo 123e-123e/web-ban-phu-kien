@@ -11,7 +11,7 @@ require "main/header.php";
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trang Chủ</title>
     <link rel="stylesheet" src="style/main.css">
-    <link rel="icon" href="../web-ban-phu-kien-main/img/favicon/favicon.svg" type="image/png">
+    <link rel="icon" href="../web-ban-phu-kien-main/img/favicon/favicon.svg" sizes="48x48" type="image/png">
     <link rel="stylesheet" href="style/style.css">
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
