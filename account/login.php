@@ -46,7 +46,7 @@ require_once __DIR__ . '/../database/disconnect-sql.php';
 <html lang="vi">
 <head>
 <meta charset="UTF-8">
-    <link rel="icon" type="image/svg+xml" sizes="48x48" href="img/favicon/favicon.svg">
+<link rel="icon" href="../img/favicon/favicon.svg" type="image/png">
 <title>Đăng Nhập - LaptopZZ</title>
 
 <style>
